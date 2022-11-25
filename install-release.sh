@@ -56,7 +56,7 @@ esac
 
 TMP_DIRECTORY="$(mktemp -d)/"
 ZIP_FILE="${TMP_DIRECTORY}v2ray-linux-$MACHINE.zip"
-DOWNLOAD_LINK="https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-$MACHINE.zip"
+DOWNLOAD_LINK="https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-$MACHINE.zip"
 
 install_software() {
     if [[ -n "$(command -v curl)" ]]; then
